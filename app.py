@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request, make_response
 from flask import abort
 from flask_mysqldb import MySQL
+
 import database as db
 
 app = Flask(__name__)
